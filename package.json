@@ -1,0 +1,28 @@
+{
+  "name": "botstrap",
+  "version": "0.0.1",
+  "description": "Framework for building extensible Slack bots",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/elvinyung/botstrap.git"
+  },
+  "keywords": [
+    "slack",
+    "bot",
+    "extensible"
+  ],
+  "author": "Elvin Yung <foss@elvinyung.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elvinyung/botstrap/issues"
+  },
+  "homepage": "https://github.com/elvinyung/botstrap#readme",
+  "dependencies": {
+    "sequoria": "0.2.0",
+    "slack-client": "^1.4.1"
+  }
+}
