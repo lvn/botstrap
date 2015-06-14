@@ -1,7 +1,7 @@
 
 var fs = require('fs'),
   sequoria = require('sequoria'),
-  createBot = require('./lib');
+  createBot = require('./lib').createBot;
 
 if (require.main === module) {
   // this module is being directly run.
