@@ -1,0 +1,19 @@
+{
+  "name": "testbot",
+  "token": "TOKEN GOES HERE",
+  "bundles": [
+    "botstrap-admin"
+  ],
+  "plugins": [
+    {
+      "type": "command",
+      "command": "zork",
+      "require": "zorkmid"
+    },
+    {
+      "type": "command",
+      "command": ["scalk", "calc"],
+      "require": "scalk"
+    }
+  ]
+}
