@@ -2,7 +2,13 @@
   "name": "testbot",
   "token": "TOKEN GOES HERE",
   "bundles": [
-    "botstrap-admin"
+    {
+      "require": "botstrap-admin",
+      "config": {
+        "adminUser": "elvin"
+      }
+    },
+    "foo-bundle"
   ],
   "plugins": [
     {
