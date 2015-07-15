@@ -4,7 +4,7 @@ var fs = require('fs'),
   sequoria = require('sequoria'),
   createBot = require('./lib').createBot;
 
-if (require.main === module) {
+function main() {
   // this module is being directly run.
   var configFile = process.argv[2] || 'config.json';
   if (!configFile.startsWith('/')) {
@@ -18,6 +18,10 @@ if (require.main === module) {
   var config = JSON.parse(fs.readFileSync(configFile));
   var bot = createBot(config);
   bot.start();
+}
+
+if (require.main === module) {
+  main();
 }
 
 module.exports = createBot;
