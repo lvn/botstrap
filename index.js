@@ -15,7 +15,7 @@ if (require.main === module) {
     ].join('/');
   }
 
-  var config = require(configFile);
+  var config = JSON.parse(fs.readFileSync(configFile));
   var bot = createBot(config);
   bot.start();
 }
