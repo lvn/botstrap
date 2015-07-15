@@ -23,6 +23,7 @@
   "homepage": "https://github.com/elvinyung/botstrap#readme",
   "dependencies": {
     "introject": "0.0.2",
+    "lfmt": "^0.2.0",
     "sequoria": "0.2.0",
     "slack-client": "^1.4.1"
   },
