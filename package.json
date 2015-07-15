@@ -25,5 +25,8 @@
     "introject": "0.0.2",
     "sequoria": "0.2.0",
     "slack-client": "^1.4.1"
+  },
+  "bin": {
+    "botstrap": "./index.js"
   }
 }
