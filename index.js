@@ -1,3 +1,5 @@
+#!/usr/bin/env iojs
+
 var fs = require('fs'),
   sequoria = require('sequoria'),
   createBot = require('./lib').createBot;
