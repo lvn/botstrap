@@ -5,13 +5,12 @@ var bot = botstrap.createBot({
 });
 
 // responds to any message beginning with !reverse or !esrever
-bot.command(['reverse', 'esrever'], function reverse(message, response) {
-  var payload = message.argv[1];
-  payload && response.write(payload.split('').reverse().join(''));
+bot.command(['reverse', 'esrever'], function reverse(argv, response) {]
+  response.end(argv.reverse().join(' '));
 });
 
 // responds to any message beginning with !random
-bot.command('random', function random(message, response) {
+bot.command('random', function random(response) {
   response.write(Math.random());
 });
 
