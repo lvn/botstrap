@@ -17,4 +17,4 @@ npm install -g botstrap
 * other stuff
 
 ### Getting Started
-You can build a Botstrap bot by either writing a script that invokes the Botstrap APIs ([example](https://github.com/elvinyung/botstrap/blob/master/examples/quickstart/bot.js)), or simply by specifying behaviour through a config JSON ([example](https://github.com/elvinyung/botstrap/blob/master/config.example.json)). You can run a bot script just as a normal io.js app, and you can run a config JSON as a bot using the command `botstrap [config filename]`.
+You can build a Botstrap bot by either writing a script that invokes the Botstrap APIs ([example](https://github.com/elvinyung/botstrap/blob/master/examples/quickstart/bot.js)), or simply by specifying behaviour through a config JSON ([example](https://github.com/elvinyung/botstrap/blob/master/examples/json/config.example.json)). You can run a bot script just as a normal io.js app, and you can run a config JSON as a bot using the command `botstrap [config filename]`.
