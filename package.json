@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/elvinyung/botstrap#readme",
   "dependencies": {
+    "commander": "^2.9.0",
     "introject": "0.0.2",
     "lfmt": "^0.2.0",
     "require-relative": "^0.8.7",
