@@ -27,7 +27,8 @@
     "lfmt": "^0.2.0",
     "require-relative": "^0.8.7",
     "sequoria": "0.2.0",
-    "slack-client": "^1.4.1"
+    "slack-client": "^1.4.1",
+    "uuid": "^2.0.1"
   },
   "bin": {
     "botstrap": "./index.js"
