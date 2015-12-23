@@ -2,7 +2,7 @@
   "name": "botstrap",
   "version": "0.14.8",
   "description": "Framework for building extensible Slack bots",
-  "main": "index.js",
+  "main": "bin/index.js",
   "scripts": {
     "test": "mocha test"
   },
@@ -27,7 +27,7 @@
     "lfmt": "^0.2.0",
     "require-relative": "^0.8.7",
     "sequoria": "0.2.0",
-    "slack-client": "^1.4.1",
+    "slack-client": "^1.5.1",
     "uuid": "^2.0.1"
   },
   "bin": {
