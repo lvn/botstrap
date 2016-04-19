@@ -2,7 +2,7 @@
   "name": "botstrap",
   "version": "0.15.1",
   "description": "Framework for building extensible Slack bots",
-  "main": "bin/index.js",
+  "main": "./bin/index.js",
   "scripts": {
     "test": "mocha test"
   },
