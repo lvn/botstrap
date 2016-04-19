@@ -1,6 +1,6 @@
 {
   "name": "botstrap",
-  "version": "0.15.2",
+  "version": "0.15.1",
   "description": "Framework for building extensible Slack bots",
   "main": "./bin/index.js",
   "scripts": {
@@ -31,6 +31,6 @@
     "uuid": "^2.0.1"
   },
   "bin": {
-    "botstrap": "./index.js"
+    "botstrap": "./bin/index.js"
   }
 }
