@@ -5,7 +5,7 @@ var bot = botstrap.createBot({
 });
 
 // responds to any message beginning with !reverse or !esrever
-bot.command(['reverse', 'esrever'], function reverse(argv, response) {]
+bot.command(['reverse', 'esrever'], function reverse(argv, response) {
   response.end(argv.reverse().join(' '));
 });
 
