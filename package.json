@@ -22,12 +22,12 @@
   },
   "homepage": "https://github.com/elvinyung/botstrap#readme",
   "dependencies": {
+    "@slack/client": "^3.6.0",
     "commander": "^2.9.0",
     "introject": "0.0.2",
     "lfmt": "^0.2.0",
     "require-relative": "^0.8.7",
     "sequoria": "0.2.0",
-    "slack-client": "^1.5.1",
     "uuid": "^2.0.1"
   },
   "bin": {
