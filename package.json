@@ -28,6 +28,7 @@
     "lfmt": "^0.2.0",
     "require-relative": "^0.8.7",
     "sequoria": "0.2.0",
+    "truncate": "^2.0.0",
     "uuid": "^2.0.1"
   },
   "bin": {
