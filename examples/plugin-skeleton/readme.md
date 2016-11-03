@@ -1,6 +1,6 @@
 # Simple Plugin Skeleton
 
-Annotated example of a Botstrap plugin, a simple command that reverses arguments passed to it.
+Annotated example of a Botstrap plugin, a command that reacts 👍 to the request message, responds "OK", and reacts 👌 to the response message. 
 
 ### Files
 #### Core
