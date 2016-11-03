@@ -6,7 +6,7 @@
 
 ### Core Concepts
 * **Plugin architecture:** At Botstrap's core is a plugin architecture that aims to be simple but powerful, with the main goal being to minimize development time for "actual" functionality. It exposes a dependency injection API for callbacks to reduce boilerplate.
-* **"Object-oriented" API:** Slack's RTM and Web APIs are generally pretty relatively procedural, requiring specific knowledge of different methods. Botstrap aims to provide a more intuitive layer of abstraction, exposing the same functionality as methods on objects (e.g. *Message* or *Channel*).
+* **"Object-oriented" API:** Slack's RTM and Web APIs are generally pretty procedural, requiring specific knowledge of different methods. Botstrap aims to provide a more intuitive layer of abstraction, exposing the same functionality as methods on objects (e.g. *Message* or *Channel*).
 
 ### Getting Started
 #### Installation
