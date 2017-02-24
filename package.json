@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/elvinyung/botstrap#readme",
   "dependencies": {
-    "@slack/client": "^3.6.0",
+    "@slack/client": "^3.8.1",
     "commander": "^2.9.0",
     "introject": "^0.1.0",
     "lfmt": "^0.2.0",
